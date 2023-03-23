@@ -3,4 +3,4 @@
 <p>body:</p><%= @book.body %>
 
 <br>
-edit | <%= link_to "Back", books_path %>
+<%= link_to "Edit", edit_book_path(@book.id) %> | <%= link_to "Back", books_path %>
