@@ -38,9 +38,9 @@
 <% end %>
 
 <%= form_with model: @book, url: books_path, method: :post do |f| %>
-<p class="form-title">Title</p>
+<p class="form-label">Title</p>
 <%= f.text_field :title %>
-<p class="form-title">Body</p>
+<p class="form-label">Body</p>
 <%= f.text_area :body %><br>
 <%=f.submit 'Create Book',class: "post-btn" %>
 <% end %>

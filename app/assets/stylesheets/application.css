@@ -73,7 +73,7 @@ td {
     margin-left: 30px;
 }
 
-.form-title {
+.form-label {
     margin-top: 8px;
     font-size: 13px;
 }
@@ -98,11 +98,23 @@ td {
     margin-bottom: 30px;
 }
 
-.show-link {
+
+/*edit用*/
+.edit-box {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.edit-box h1 {
+    font-size: 26px;
+}
+
+
+.link-box {
     margin-left: 30px;
     font-size: 13px;
 }
-
 
 .btn:visited {
     color: gray;

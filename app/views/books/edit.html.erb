@@ -1,3 +1,4 @@
+<div class="edit-box">
 <h1>Editing Book</h1>
 
 <% if @book.errors.any? %>
@@ -11,11 +12,14 @@
 
 
 <%= form_with model: @book do |f| %>
-<p>title</p>
+<p class="form-label">Title</p>
 <%= f.text_field :title %>
-<p>body</p>
+<p class="form-label">Body</p>
 <%= f.text_area :body %><br>
-<%= f.submit 'Update Book' %>
+<%= f.submit 'Update Book', class: "post-btn" %>
 <% end %>
+</div>
 
-<%= link_to 'Show', book_path(@book.id) %> | <%= link_to 'Back', books_path %>
+<div class="link-box">
+  <%= link_to 'Show', book_path(@book.id), class: "btn" %> | <%= link_to 'Back', books_path, class: "btn" %>
+</div>
