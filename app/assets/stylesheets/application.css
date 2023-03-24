@@ -20,11 +20,21 @@
   box-sizing: border-box;
 }
 
+.flash {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.flash-message {
+    color: green;
+    font-size: 13px;
+}
+
 /*top用*/
 
 .heading {
-  padding-top: 25px;
-  padding-left: 30px;
+  margin-top: 25px;
+  margin-left: 30px;
 }
 
 .heading h1 {
@@ -39,10 +49,6 @@
 
 .top-link {
   margin-top: 30px;
-}
-
-.top-link-btn {
-  color: black;
 }
 
 /*index用*/
@@ -64,8 +70,6 @@ td {
 
 .book-btn {
     margin-right: 10px;
-    color: #000;
-    font-size: 12px;
 }
 
 .post-content {
@@ -90,7 +94,7 @@ td {
 /*show用*/
 
 .show-box {
-    margin:35px 60px;
+    margin:30px 60px;
     font-size: 13px;
 }
 
@@ -110,9 +114,14 @@ td {
     font-size: 26px;
 }
 
+/*link用*/
 
 .link-box {
     margin-left: 30px;
+}
+
+.btn {
+    color: black;
     font-size: 13px;
 }
 
@@ -123,4 +132,15 @@ td {
 .btn:hover {
     background-color: black;
     color: white;
+}
+
+/*error用*/
+
+.error-box {
+    font-size: 13px;
+    color: red;
+}
+
+.error-message {
+    margin-left: 60px;
 }
